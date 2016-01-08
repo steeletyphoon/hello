@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+'user strict'
+
+console.log("Hello World")
