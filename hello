@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+
+'use strict';
+
+c = require("skilstak-colors");
+//This is the same as import as from python.
+
+var printMulti = function (text) {
+  console.log(c.multi("Hello " + text + "!"));
+}
+
+var printPlain = function (text) {
+  console.log(c.clear + ("Hello " + text + "!"));
+}
+
+var printRed = function (text) {
+  console.log(c.clear + ("Hello " + text + c.r + "!"));
+}
+
+var firstArg = process.argv[2];
+print(Multi(firstagrv);
